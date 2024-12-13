@@ -1,0 +1,293 @@
+body {
+    background-color: #B7D6E1;
+    text-align: center;
+    font-family: 'Afacad'; /* Code van W3Schools */
+}
+
+header {
+    background-color: #01325D;
+}
+
+header img {
+    max-height: 12.5em;
+    transition: 250ms;
+}
+
+header img:hover {
+    background-color: #183E6F
+}
+
+nav {
+    padding: 1.25em;
+}
+
+nav ul {
+    padding: 1.5625em;
+    display: flex; /* Code van Kevin Yip */
+    flex-direction: row; /* Code van Kevin Yip */
+    justify-content: center; /* Code van Kevin Yip */
+    list-style: none;
+}
+
+nav a {
+    margin: 0.625em;
+    padding: 0.625em;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-weight: bold;
+    font-size: 1.5625em;
+    text-decoration: none;
+    color: white;
+    background-color: #4E7098;
+    border: 4px solid black;
+    border-radius: 20%;
+    transition: 250ms;
+}
+
+nav a:hover{
+    background-color: red;
+}
+
+nav a:focus {
+    color: brown;
+}
+
+video {
+    max-width: 50%;
+}
+
+h1 {
+    color: #183E6F;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #183E6F;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    white-space: pre-line; /* Code van MDN Web Docs */
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 1.25em;
+    color: white;
+    text-decoration: underline;
+}
+
+span {
+    font-size: 2.5em;
+}
+
+p {
+    width: 57%;
+    margin-left: auto; /* Code van W3Schools */
+    margin-right: auto; /* Code van W3Schools */
+    color: white;
+    background-color: #183E6F;
+    border: 4px solid white;
+    border-radius: 5%;
+    padding: 3.125em;
+    font-weight: bold;
+    font-size: 1.8em;
+    white-space: pre-line; /* Code van MDN Web Docs */
+}
+
+textarea {
+    width: 50%;
+    padding: 1.25em;
+    height: 15.625em;
+    color: #B0C4DA;
+    margin-top: 1.25em;
+    border-radius: 7%;
+}
+
+button {
+    background-color: #4E7098;
+    padding: 0.625em;
+    border-radius: 7%;
+    font-family: 'Afacad'; /* Code van W3Schools */
+    font-size: 0.8em;
+    margin: 0.3125em;
+    color: white;
+    transition: 250ms;
+}
+
+button:hover {
+    padding: 0.8em;
+}
+
+.h2-underline-bar {
+    width: 30%;
+    margin-left: auto; /* Code van W3Schools */
+    margin-right: auto; /* Code van W3Schools */
+    background-color: #183E6F;
+    height: 0.625em;
+    margin-top: 0;
+    margin-bottom: 5em;
+}
+
+.separation-bar {
+    background-color: #183E6F;
+    height: 1.875em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap; /* Code van CSS-Tricks */
+    justify-content: center;
+    color: white;
+    background-color: #183E6F;
+    margin-top: 9.375em;
+}
+
+footer div {
+    width: 33.3%;
+    max-height: 12.5em;
+    margin-bottom: 1.875em;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    margin-left: auto; /* Code van W3Schools */
+    margin-right: auto; /* Code van W3Schools */
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    width: fit-content;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+footer section {
+    display: flex;
+    font-size: 1.2em;
+}
+
+footer section a, h4 {
+    font-size: 1.2em;
+    margin: 3.125em;
+}
+
+footer section img {
+    max-height: 1.4em;
+}
+
+
+/* Podcast homepage CSS */
+.recent-afleveringen img {
+    height: 25em;
+    margin: 5vh;
+    transition: 250ms;
+}
+
+.recent-afleveringen img:hover {
+    height: 28.125em;
+}
+
+.recent-afleveringen div {
+    display: flex;
+    margin-left: auto; /* Code van W3Schools */
+    margin-right: auto; /* Code van W3Schools */
+    color: white;
+    border: 5px solid black;
+    border-radius: 7%;
+    background-color: #4E7098;
+    width: 30%;
+}
+
+.recent-afleveringen div a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    background-color: #4E7098;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 0.5em;
+    transition: 250ms;
+}
+
+.recent-afleveringen div a:hover {
+    background-color: red;
+    border-radius: 7%;
+}
+
+/* Podcast afleveringen page CSS */
+.afleveringen-top {
+    color: white;
+    background-color: #183E6F;
+    width: 80%;
+    margin-left: auto; /* Code van W3Schools */
+    margin-right: auto; /* Code van W3Schools */
+    padding: 1.875em;
+    border: 6px solid white;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.afleveringen-top img {
+    height: 50em;
+    padding: 2.5em;
+    transition: 250ms;
+}
+
+.afleveringen-top img:hover {
+    height: 51em;
+}
+
+.afleveringen-top p {
+    all: unset; /* Code van MDN Web Docs */
+    font-size: 1.6em;
+}
+
+.afleveringen-top span {
+    font-size: 1.8em;
+}
+
+article {
+    display: flex;
+    background-color: #183E6F;
+    border: 2px solid white;
+    border-radius: 2%;
+    margin: 1.875em;
+    padding: 1.25em;
+}
+
+article a, article img {
+    height: 25em;
+    margin: 0.625em;
+    transition: 250ms;
+}
+
+article a:hover, article img:hover {
+    height: 26em;
+}
+
+article p {
+    border: unset; /* Code van MDN Web Docs */   
+}
+
+
+/* Podcast over ons page CSS */
+.over-ons-sectie img {
+    max-height: 25em;
+    border: 10px solid #183E6F;
+    border-radius: 100%;
+    margin-top: 5em;
+}
+
+.over-ons-sectie h3 {
+    color: #183E6F;
+    text-decoration: underline;
+    font-size: 3em;
+    margin-top: 0;
+}
